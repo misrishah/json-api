@@ -4,7 +4,7 @@
   "description": "Backend API for ecommerce app",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT --no-static"
+    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"
   },
   "engines": {
     "node": "18.x"
@@ -13,6 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.0"
   }
 }
