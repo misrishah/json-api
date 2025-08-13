@@ -4,4 +4,4 @@ services:
     env: node
     plan: free
     buildCommand: npm install
-    startCommand: json-server --watch db.json --port $PORT
+    startCommand: npm start
